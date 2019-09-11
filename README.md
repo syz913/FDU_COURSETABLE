@@ -1,6 +1,5 @@
 # FDU_COURSETABLE
 爬取复旦大学教务系统课表
-###单纯使用sharedpreference存储账号密码，具体细节可以查看源码
 ```
 |--fdu_coursetable
     |---Utils   //工具类文件夹
@@ -17,3 +16,8 @@
     |
     `-- SharedHelper //存储个人账号密码
 ```
+#### Security
+> Because I'm a noob, I don't know how to protect the app data. The app is using SharedPreferences file to keep data, and MODE_PRIVATE was setted. So, If your phone is safe and does not installed any strange app, it's safe enough. You can check the source code in this repository. I didn't upload the whole AS project, because it's too big. If you still don't trust, you can remake an app and then use it. For safety sake, get the app by the link below!
+
+#### Caution
+> Please do not use this app if you can't guarantee your phone's security. Please do not enter your account password on someone else's mobile phone. Please assess the risk yourself. The author does not collect any user information, and the author is not responsible for the loss caused by the app.
