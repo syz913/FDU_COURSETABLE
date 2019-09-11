@@ -1,23 +1,26 @@
 # FDU_COURSETABLE
-爬取复旦大学教务系统课表
+Get the courseTable from the eductional system of Fudan University.
+Mainly use OKHTTP
 ```
 |--fdu_coursetable
-    |---Utils   //工具类文件夹
-    |       |-- DialogUtiles //自定义弹窗控件
-    `-- ClassInfo //课程信息数据结构
+    |---Utils 
+    |       |-- DialogUtiles
+    `-- ClassInfo
     |
-    `-- CourseData //课程信息数据类
+    `-- CourseData
     |
-    `-- CourseTable //课程表
+    `-- CourseTable
     |
-    `-- Mainactivity //登录界面，爬取逻辑的主要实现代码
+    `-- Mainactivity
     |
-    `-- ScheduleView //画课程表界面
+    `-- ScheduleView
     |
-    `-- SharedHelper //存储个人账号密码
+    `-- SharedHelper
 ```
 #### Security
 > Because I'm a noob, I don't know how to protect the app data. The app is using SharedPreferences file to keep data, and MODE_PRIVATE was setted. So, If your phone is safe and does not installed any strange app, it's safe enough. You can check the source code in this repository. I didn't upload the whole AS project, because it's too big. If you still don't trust, you can remake an app and then use it. For safety sake, get the app by the link below!
 
 #### Caution
 > Please do not use this app if you can't guarantee your phone's security. Please do not enter your account password on someone else's mobile phone. Please assess the risk yourself. The author does not collect any user information, and the author is not responsible for the loss caused by the app.
+
+## If you have any problem or there are some bugs in my app, you can leave a message.
