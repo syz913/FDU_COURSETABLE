@@ -57,4 +57,9 @@
         >
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="源代码见https://github.com/syz913/FDU_COURSETABLE"/>
+
 </LinearLayout>
